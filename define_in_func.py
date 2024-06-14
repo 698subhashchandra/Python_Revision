@@ -19,7 +19,7 @@ def sum_lists(list1, list2):
     else:
         return "Lists cannot be added because the number of elements is not the same."
 
-
-print(sum_lists(list1, list2))
+result = sum_lists(list1, list2)
+print(result)
 
 
