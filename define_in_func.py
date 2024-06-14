@@ -1,5 +1,5 @@
-list1 = [10, 524, 10, 22]
-list2 = [1,40, 25, 23]
+list1 = [10, 524, 10, 22, 32,2555]
+list2 = [1,40, 25, 23, 52, 1000]
 
 def sum_lists(list1, list2):
     sum_of_list = []
@@ -20,4 +20,6 @@ def sum_lists(list1, list2):
         return "Lists cannot be added because the number of elements is not the same."
 
 
-print(sum_list())
+print(sum_lists(list1, list2))
+
+
